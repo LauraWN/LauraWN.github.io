@@ -1,2 +1,2 @@
 # LauraWN.github.io
-gist pages on github
+portfolio pages on github
