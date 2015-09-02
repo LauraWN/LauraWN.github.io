@@ -1,0 +1,18 @@
+body {
+  background-color: #2E426C;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  margin: 2% 2% 2% 2%;
+  font-weight: bold;
+  color: black;
+  color: #333;
+  text-shadow: 1px 2px 3px #3440ae;
+  font-size: 3em;
+  height: 50%;
+  width: 50%;
+}

@@ -1,0 +1,32 @@
+$colorPrimary: #2E426C;
+$colorSecondary:#262;
+$colorWords: 4C5DFF;
+
+body {
+  background-color: $colorPrimary;
+  align-items: center;
+  justify-content: center;
+}
+@mixin threeDify($offset, $secondaryColor) {
+  box-shadow:shadowify($offset, $color);
+  &:hover{
+    transform:translate(-1px,-1px);
+    box-shadow:shadowify($offset+2, $color);
+  }
+  &:active{
+    transform:translate($offset - 1+px, $offset - 1+px);
+    box-shadow:shadowify(1, $color);
+  }
+}
+button{
+  border: none;
+  padding: 1em;
+  margin: 2% 2% 2% 2%;
+  font-weight: bold;
+  color:darken($colorSecondary, 40%);
+  color:#333;
+  text-shadow:1px 2px 3px lighten($colorSecondary,12%);
+  font-size:3em;
+  height: 50%;
+  width: 50%;
+}
