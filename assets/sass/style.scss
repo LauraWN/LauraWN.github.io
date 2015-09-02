@@ -1,3 +1,11 @@
+@mixin clearfix {
+  & :after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 $colorPrimary: #2E426C;
 $colorSecondary:#262;
 $colorWords: 4C5DFF;
