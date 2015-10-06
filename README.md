@@ -1,2 +1,4 @@
 # LauraWN.github.io
-portfolio pages on github
+Hello!
+
+My personal pages on github can be found here: http://laurawn.github.io.
