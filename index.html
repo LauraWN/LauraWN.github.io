@@ -40,10 +40,10 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">THEME<i class="fa fa-caret-down"></i></a>
               <ul class="dropdown-menu">
-                <li><a href="company-blue.html">Autumn</a></li>
-                <li><a href="company-green.html">Winter</a></li>
-                <li><a href="company-spring.html">Spring</a></li>
-                <li><a href="company-summer.html">Summer</a></li>
+                <li><a href="theme-autumn.html">Autumn</a></li>
+                <li><a href="theme-winter.html">Winter</a></li>
+                <li><a href="theme-spring.html">Spring</a></li>
+                <li><a href="theme-summer.html">Summer</a></li>
               </ul>
             </li>
             <li><a class="scroll hidden" href="#home"></a></li>
@@ -90,14 +90,14 @@
       </div><!-- /.modal -->
       <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
         <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="img/farmonymarkets.png" alt="">
+          <img data-dismiss="modal" class="img-responsive" src="img/farmonymarkets.png" alt="Farmony: A Farmer's Market Location App">
           <h2 class="modal-title"><a href="http://farmony.herokuapp.com">Farmony Markets</a></h2>
         </div><!-- /.content -->
       </div><!-- /.modal -->
       <div class="modal fade" id="modal2" tabindex="-1" role="dialog">
         <div class="wrapper">
-          <img data-dismiss="modal" class="img-responsive" src="img/sintel-snowscape.jpg" alt="">
-          <h2 class="modal-title"><a href="http://sintel.org">Sintel Snowscape</a></h2>
+          <img data-dismiss="modal" class="img-responsive" src="img/naccho-annual.jpg" alt="NACCHO Annual Conference">
+          <h2 class="modal-title"><a href="http://www.nacchoannual.org">NACCHO Annual Conference</a></h2>
         </div><!-- /.content -->
       </div><!-- /.modal -->
       <div class="modal fade" id="modal3" tabindex="-1" role="dialog">
@@ -245,22 +245,21 @@
         <div id="grid" class="row masonry-grid effect-2">
           <li class="col-md-4 col-sm-4 col-xs-12 item">
             <a data-toggle="modal" href="#modal1" class="image">
-              <img src="img/farmonymarkets.png" alt="Farmony Markets Website Screenshot">
+              <img src="img/farmonymarkets.png" alt="Farmony Markets">
               <span class="overlay"><span class="valign"></span><i class="fa fa-search"></i></span>
             </a>
             <div class="description">
               <h2>Farmony Markets</h2>
-              <p>Farmony Markets is a web application created in express.JS (a Node.js framework) that takes data on farmers markets obtained from the USDA API, combines it with vendor data, and plots the location on a map.</p>
-              <div class="clearfix"></div>
+              <p>Farmony Markets is a web application created in Express on Node.JS that provides information on farmers markets in the DC area.</p>
             </div>
           </li>
           <li class="col-md-4 col-sm-4 col-xs-12 item">
             <a data-toggle="modal" href="#modal4" class="image">
-              <img src="img/sintel-bamboo-2.jpg" alt="ishtar alley">
+              <img src="img/naccho-annual.jpg" alt="NACCHO Annual Conference">
               <span class="overlay"><span class="valign"></span><i class="fa fa-search"></i></span>
             </a>
             <div class="description">
-              <h2>Sintel Bamboo</h2>
+              <h2>NACCHO Annual Conference</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <div class="clearfix"></div>
             </div>
@@ -385,7 +384,7 @@
           <div class="row">
             <div class="col-md-2 col-sm-2 col-xs-12"></div>
             <div class="col-md-8 col-sm-8 col-xs-12">
-              <p class="description">Contact me through the <span class="highlight">form</span> below or send me an <span class="highlight">email</span>. I always reply as soon as possible.
+              <p class="description">Contact me through the <span class="highlight">form</span> below or send me an <span class="highlight">mailto:me@lauranawrocki.comemail</span>. I always reply as soon as possible.
               </p>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-12"></div>
@@ -397,15 +396,15 @@
       <div class="container">
         <h2>Contact Form</h2>
         <div class="content">
-          <form role="form">
+          <form role="form" action="http://formspree.io/me@lauranawrocki.com">
             <div class="form-group">
               <label for="exampleInputName"><i class="icon-tag"></i></label>
-              <input type="text" class="form-control" id="exampleInputName" placeholder="Full Name" required>
+              <input type="text" name="sender-name" class="form-control" id="exampleInputName" placeholder="Full Name" required>
               <div class="clearfix"></div>
             </div>
             <div class="form-group">
               <label for="exampleInputEmail1"><i class="icon-inbox"></i></label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
+              <input type="email" name="sender-email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
               <div class="clearfix"></div>
             </div>
             <div class="form-group textarea">
